@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Pagina 404</title>
+  </head>
+  <body class="p-4 sm:px-13 sm:py-12 font-inria min-h-screen flex flex-col">
+    <header class="container mx-auto">
+      <nav class="flex flex-col sm:flex-row justify-between items-center">
+        <img src="/assets/logo.svg" alt="" />
+        <ul
+          class="flex flex-col text-center mt-2 gap-2 sm:mt-0 sm:text-left sm:flex-row sm:gap-7"
+        >
+          <li>
+            <a class="hover:underline hover:text-red-500" href="#">Home</a>
+          </li>
+          <li>
+            <a class="hover:underline hover:text-red-500" href="#">Sobre nós</a>
+          </li>
+          <li>
+            <a class="hover:underline hover:text-red-500" href="#">Suporte</a>
+          </li>
+          <li>
+            <a class="hover:underline hover:text-red-500" href="#"
+              >Fale conosco</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container mx-auto flex-1 grid place-items-center">
+      <div class="flex flex-col lg:flex-row items-center gap-16">
+        <img class="mt-10 lg:mt-0" src="/assets/img.svg" alt="" />
+        <div class="max-w-98 space-y-3">
+          <h1 class="font-semibold text-black text-[2.5rem]">Opa!</h1>
+          <h2 class="font-semibold text-black text-2xl">
+            Não encontramos essa página
+          </h2>
+          <p class="text-xl">
+            Se você se perdeu no espaço, não se preocupe, tente voltar para a
+            página inicial
+          </p>
+          <div
+            class="flex flex-col justify-between items-center gap-3 my-10 lg:my-0 xl:gap-0 xl:flex-row"
+          >
+            <a
+              class="bg-red-400 text-black font-medium px-3 py-2 rounded-lg font-inter"
+              href="#"
+              >Voltar para Home</a
+            >
+            <a class="text-red-400 font-bold" href="#"
+              >Visite nossa central de ajuda</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="container mx-auto flex flex-col sm:flex-row justify-between items-center"
+    >
+      <span>www.codespace.com.br</span>
+      <div class="flex flex-col items-center sm:items-start sm:flex-row gap-10">
+        <span>Siga-nos nas redes sociais</span>
+        <ul class="flex gap-7">
+          <li>
+            <img src="/assets/icon-whats.svg" alt="" />
+          </li>
+          <li>
+            <img src="/assets/icon-face.svg" alt="" />
+          </li>
+          <li>
+            <img src="/assets/icon-linkedin.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

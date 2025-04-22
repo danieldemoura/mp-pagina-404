@@ -1,0 +1,24 @@
+{
+  "name": "mp-pagina-404",
+  "version": "1.0.0",
+  "description": "Quem nunca encontrou uma página 404, não é mesmo? Esse mini projeto consiste em criar uma página de erro 404 projetada para oferecer uma experiência visual amigável ao usuário quando ele acessa uma URL inexistente no site da CodeSpace.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i tailwind.css -o main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldemoura/mp-pagina-404.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieldemoura/mp-pagina-404/issues"
+  },
+  "homepage": "https://github.com/danieldemoura/mp-pagina-404#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}
